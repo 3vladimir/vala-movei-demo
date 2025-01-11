@@ -1,5 +1,5 @@
-import placeholder from "/public/placeholder.gif";
 import Image from "next/image";
+import placeholder from '../public/placeholder.gif'
 
 export default function Loading() {
   return (
@@ -10,7 +10,7 @@ export default function Loading() {
           alt="placeholder"
           width={500}
           height={500}
-        ></Image>
+        />
       </div>
     </>
   );
